@@ -5,17 +5,17 @@ const initialState = {
 };
 
 export default function(state = initialState, action) {
-  const { type, payload } = action;
+  const { type } = action;
   switch (type) {
     case SIGN_IN:
       return {
         ...state,
-        isSignedIn: payload
+        isSignedIn: true
       };
     case SIGN_OUT:
       return {
         ...state,
-        isSignedIn: payload
+        isSignedIn: false
       };
     default:
       return state;
