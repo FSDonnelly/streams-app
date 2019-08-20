@@ -16,22 +16,21 @@
       "id": 5
     },
     {
-      "title": "UserId Stream",
-      "description": "user id on this stream",
-      "userId": "118062018459920331262",
-      "id": 6
-    },
-    {
       "title": "Unexpected Behavior",
-      "description": "Didn't expect that",
-      "userId": "118062018459920331262",
+      "description": "this is edited",
       "id": 7
     },
     {
       "title": "Programmtic Nav",
-      "description": "Don't see this",
+      "description": "Did this edit",
       "userId": "118062018459920331262",
       "id": 8
+    },
+    {
+      "title": "Edit and Delete test",
+      "description": "patch",
+      "userId": "118062018459920331262",
+      "id": 9
     }
   ]
 }
